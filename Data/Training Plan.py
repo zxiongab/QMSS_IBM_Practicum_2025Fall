@@ -12,6 +12,8 @@ nltk.download('punkt')
 nltk.download('punkt_tab')
 from nltk.tokenize import sent_tokenize
 import re
+import json
+import os
 
 doc = Document("Training Plan.docx")
 
@@ -36,7 +38,7 @@ for line in full_text:
     elif current_section:
         sections[current_section].append(line)
 
-#print(full_text[:10])  
+
 
 cleaned_data = []
 
@@ -45,19 +47,26 @@ for section, content in sections.items():
     text = re.sub(r"<.*?>", "", text)  # remove placeholders
     text = re.sub(r"\s+", " ", text)  # normalize spaces
 
-#Summary
-    sentences = sent_tokenize(text)
-    summary = " ".join(sentences[:])
 
-    cleaned_data.append({
-        "phase": "Development",
-        "deliverable": "Training Plan",
-        "section_title": section,
-        "related_eplc_reference": "EPLC Framework – Development Phase",
-        "source": "CDC UP Training Plan Template",
-        "summary": summary
-        
-    })
 
-df = pd.DataFrame(cleaned_data)
-df.to_csv("training_plan_cleaned.csv", index=False)
+document = {
+    "document_title": "Training Plan (Cleaned)",
+    "source_filename": "Training Plan.docx",
+    "sections": []
+}
+
+for section_title, content_list in sections.items():
+    section_number = section_title.split(" ")[0]
+    title = " ".join(section_title.split(" ")[1:])
+    
+    section_data = {
+        "number": section_number,
+        "title": title,
+        "content": " ".join(content_list),
+    }
+    document["sections"].append(section_data)
+
+# Save to JSON file
+output_path = os.path.splitext("Training Plan.docx")[0] + ".cleaned.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(document, f, ensure_ascii=False, indent=2)
