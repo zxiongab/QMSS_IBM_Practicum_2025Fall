@@ -1,0 +1,159 @@
+{
+  "document_title": "CDC_UP_Interface_Control_Template",
+  "source_filename": "/Users/rockyccc/Desktop/CU/25FW/Practicum 5052/Ibm/CDC_UP_Interface_Control_Template.docx",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Introduction",
+      "content": null,
+      "subsections": [
+        {
+          "number": "1.1",
+          "title": "Purpose of Interface Control",
+          "content": "[Provide the purpose of the Interface Control document. For example: This Interface Control Document (ICD) documents and tracks the necessary information required to effectively define the <Project Name> system’s interface as well as any rules for communicating with them in order to give the development team guidance on architecture of the system to be developed. The purpose of this ICD is to clearly communicate all possible inputs and outputs from the system for all potential actions whether they are internal to the system or transparent to system users. This Interface Control is created during the Planning and Design Phases of the project. Its intended audience is the project manager, project team, development team, and stakeholders interested in interfacing with the system. This ICD helps ensure compatibility between system segments and components.]\n\nThe intended audience of the <Project Name> Interface Control is all project stakeholders including the project sponsor, senior leadership, and the project team.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Interface Controls",
+      "content": "[Include a detailed description of the required interface controls.]\n\nAppendix A: Interface Control Approval\nThe undersigned acknowledge they have reviewed the <Project Name> Interface Control and agree with the approach it presents. Changes to this Interface Control will be coordinated with and approved by the undersigned or their designated representatives.\n[List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Implementation Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.]\n\nAPPENDIX B: REFERENCES\n[Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.]\n\nThe following table summarizes the documents referenced in this document.\nAPPENDIX C: KEY TERMS\n[Insert terms and definitions used in this document.  Add rows to the table as necessary. Follow the link below to for definitions of project management terms and acronyms used in this and other documents.\nhttp://www2.cdc.gov/cdcup/library/other/help.htm\nThe following table provides definitions for terms relevant to this document.",
+      "subsections": [
+        {
+          "number": "2.1",
+          "title": "OSI Application Layer OSI Application Layer OSI Application Layer OSI Application Layer OSI Application Layer",
+          "content": null,
+          "subsections": [
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            },
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "number": "2.2",
+          "title": "OSI Presentation Layer OSI Presentation Layer OSI Presentation Layer OSI Presentation Layer OSI Presentation Layer",
+          "content": null,
+          "subsections": [
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            },
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "number": "2.3",
+          "title": "OSI Session Layer OSI Session Layer OSI Session Layer OSI Session Layer OSI Session Layer",
+          "content": null,
+          "subsections": [
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            },
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "number": "2.4",
+          "title": "OSI Transport Layer OSI Transport Layer OSI Transport Layer OSI Transport Layer OSI Transport Layer",
+          "content": null,
+          "subsections": [
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            },
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "number": "2.5",
+          "title": "OSI Network Layer OSI Network Layer OSI Network Layer OSI Network Layer OSI Network Layer",
+          "content": null,
+          "subsections": [
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            },
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "number": "2.6",
+          "title": "OSI Data Layer OSI Data Layer OSI Data Layer OSI Data Layer OSI Data Layer",
+          "content": null,
+          "subsections": [
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            },
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "number": "2.7",
+          "title": "OSI Physical Layer OSI Physical Layer OSI Physical Layer OSI Physical Layer OSI Physical Layer",
+          "content": null,
+          "subsections": [
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            },
+            {
+              "number": null,
+              "title": "Row",
+              "content": "{\"interface_type\": \"<interface type>\", \"interface_from\": \"<interface from>\", \"interface_to\": \"<interface to>\", \"description\": \"<enter description of interface>\", \"other_information\": \"<other supporting information>\"}",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

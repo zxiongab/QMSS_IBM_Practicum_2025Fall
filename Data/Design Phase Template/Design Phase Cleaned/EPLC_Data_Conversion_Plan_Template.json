@@ -1,0 +1,112 @@
+{
+  "document_title": "EPLC_Data_Conversion_Plan_Template",
+  "source_filename": "EPLC_Data_Conversion_Plan_Template.doc",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Introduction",
+      "content": null,
+      "subsections": [
+        {
+          "number": "1.1",
+          "title": "Purpose of Data Conversion Plan",
+          "content": "This Data Conversion Plan describes the strategy, preparation, and specifications for converting data from <source system(s)> to <target system(s)> or within an existing system. It includes data inventory, mapping, transformation, tools, and quality assurance processes. The intended audience is the Business Sponsor and the Integrated Project Team."
+        },
+        {
+          "number": "1.2",
+          "title": "Data Conversion Objectives",
+          "content": "[Describe objectives of the Data Conversion Plan.]\n\u00b7 [Insert description of the first objective.]\n\u00b7 [Insert description of the second objective.]\n\u00b7 [Add additional bullets as necessary.]"
+        },
+        {
+          "number": "1.3",
+          "title": "Assumptions",
+          "content": "This section identifies the statements believed to be true for the Data Conversion Plan.\n\u00b7 [Insert description of the first assumption.]\n\u00b7 [Insert description of the second assumption.]\n\u00b7 [Add additional bullets as necessary.]"
+        },
+        {
+          "number": "1.4",
+          "title": "Constraints",
+          "content": "This section identifies limitations that must be considered prior to the Data Conversion from the old to the new system. Constraints may include hardware/software environment, end-user environment, resource availability, interoperability requirements, data repository and distribution, referential integrity, time, and security.\n\u00b7 [Insert description of the first constraint.]\n\u00b7 [Insert description of the second constraint.]\n\u00b7 [Add additional bullets as necessary.]"
+        },
+        {
+          "number": "1.5",
+          "title": "Risks",
+          "content": "[Describe any risks associated with the data conversion and proposed mitigation strategies. Include risks that could affect feasibility, performance, schedule, costs, or recovery.]\n\u00b7 [Insert description of the first risk.]\n\u00b7 [Insert description of the second risk.]\n\u00b7 [Add additional bullets as necessary.]"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Data Conversion Strategy",
+      "content": null,
+      "subsections": [
+        {
+          "number": "2.1",
+          "title": "Conversion Scope",
+          "content": "[Provide a rationale for the conversion and a general description of the boundaries of the data conversion effort, including data mapping, type, and quality details for both source and target systems.]"
+        },
+        {
+          "number": "2.2",
+          "title": "Conversion Approach",
+          "content": "[Describe the extraction, transformation, and loading (ETL) approach. Identify whether conversion will occur in phases or all at once, what tools will be used, which parts will be manual, custom programs, Go/No-Go criteria, staffing, parallel runs, security, privacy, obsolete data disposition, and retention policies.]"
+        },
+        {
+          "number": "2.3",
+          "title": "Roles and Responsibilities",
+          "content": "[List all stakeholders and document their roles and responsibilities in the conversion process.]"
+        },
+        {
+          "number": "2.4",
+          "title": "Conversion Schedule",
+          "content": "[Provide a chronological schedule of conversion activities including start and end dates, responsible persons, dependencies, and milestones.]\nTable 1 Conversion Schedule\nTask # | Task Description | Begin Date | End Date | Key Person(s) Responsible | Dependencies | Milestone"
+        },
+        {
+          "number": "2.5",
+          "title": "Data Quality Assurance and Control",
+          "content": "[Identify types of data quality issues such as type mismatches, garbled content, invalid relationships, invalid content, context changes, and behavioral variations. Describe strategies for data quality before and after conversion, validation methods, error detection, correction, and anomaly resolution.]"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Data Conversion Preparation",
+      "content": null,
+      "subsections": [
+        {
+          "number": "3.1",
+          "title": "Prerequisites",
+          "content": "[Describe preparatory steps and initiation processes that must be completed before data conversion, including data handling, loading procedures, and required support materials.]"
+        },
+        {
+          "number": "3.2",
+          "title": "Backup Strategy",
+          "content": "[Describe how source and target data baselines will be created and managed before manipulation, including incremental backups during the conversion process.]"
+        },
+        {
+          "number": "3.3",
+          "title": "Restore Process",
+          "content": "[Describe the process to restore source data if reversion to a previous backup becomes necessary during conversion.]"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Data Conversion Specifications",
+      "content": "[Provide a cross reference of input (source) data to output (target) data. Identify transformation and cleansing rules for each data element and any additional considerations such as formulas or translations.]\nTable 2 Data Conversion Specifications\nSource | Source Data Element | Destination | Target Data Element | Transformation/Cleansing Rules | Notes"
+    },
+    {
+      "number": "A",
+      "title": "APPENDIX A: Data Conversion Plan Approval",
+      "content": "The undersigned acknowledge they have reviewed the Data Conversion Plan and authorize and fund the <Project Name> project. Changes will be coordinated with and approved by the undersigned or designated representatives.\nSignature:\nDate:\nPrint Name:\nTitle:\nRole:"
+    },
+    {
+      "number": "B",
+      "title": "APPENDIX B: REFERENCES",
+      "content": "The following table summarizes documents referenced in this document.\nDocument Name and Version | Description | Location\n<Document Name and Version Number> | [Provide description of the document] | <URL or Network path where document is located>"
+    },
+    {
+      "number": "C",
+      "title": "APPENDIX C: KEY TERMS",
+      "content": "The following table provides definitions for terms relevant to this document.\nTerm | Definition\n[Insert Term] | [Provide definition of the term used in this document.]"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "document_title": "CDC_UP_Contingency_Planning_Template",
+  "source_filename": "CDC_UP_Contingency_Planning_Template.doc",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Introduction",
+      "content": null,
+      "subsections": [
+        {
+          "number": "1.1",
+          "title": "Purpose",
+          "content": "This <Project Name> Contingency Plan establishes procedures to recover the <Project Name> following a disruption. Objectives include maximizing effectiveness of contingency operations, identifying critical activities and resources, assigning responsibilities, and providing guidance for recovery and coordination among stakeholders."
+        },
+        {
+          "number": "1.2",
+          "title": "Applicability",
+          "content": "The <Project Name> Contingency Plan applies to the functions, operations, and resources necessary to restore and resume normal operations. It is applicable to <organization name> and all associated personnel as identified in this document."
+        },
+        {
+          "number": "1.3",
+          "title": "Scope",
+          "content": null,
+          "subsections": [
+            {
+              "number": "1.3.1",
+              "title": "Planning Principles",
+              "content": "[Enter various assumptions/variables taken into account when developing this plan, or that the successful execution of this plan is dependent upon]"
+            },
+            {
+              "number": "1.3.2",
+              "title": "Assumptions",
+              "content": "This section identifies statements believed to be true and from which a conclusion was drawn to define this plan.\n1. [Insert description of the first assumption.]\n2. [Insert description of the second assumption.]"
+            },
+            {
+              "number": "1.3.3",
+              "title": "Constraints",
+              "content": "This section identifies any limitation that must be taken into consideration regarding the content of this plan.\n1. [Insert description of the first constraint.]\n2. [Insert description of the second constraint.]"
+            }
+          ]
+        },
+        {
+          "number": "1.4",
+          "title": "Reference Requirements",
+          "content": "This plan complies with <organization name>\u2019s IT contingency planning policy and other applicable federal and departmental policies, including but not limited to:\n\u00b7 Computer Security Act of 1987\n\u00b7 OMB Circular A-130 (Appendix III)\n\u00b7 Federal Preparedness Circular (FPC) 65\n\u00b7 Presidential Decision Directives (PDD 67, PDD 63)\n\u00b7 FEMA Federal Response Plan (FRP)\n\u00b7 Defense Authorization Act (Public Law 106-398)"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Concept of Operations",
+      "content": null,
+      "subsections": [
+        {
+          "number": "2.1",
+          "title": "System Description and Architecture",
+          "content": "[Provide a general description of system architecture and functionality, including operating environment, physical location, user base, external partnerships, and backup procedures.]"
+        },
+        {
+          "number": "2.2",
+          "title": "Line of Succession",
+          "content": "[Enter names and contact information, in order of succession, of individuals responsible for decision-making during disruption.]"
+        },
+        {
+          "number": "2.3",
+          "title": "Responsibilities",
+          "content": "[List individuals, teams, or departments responsible for recovery operations, including leadership, coordination, and communication procedures.]"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Notification and Activation",
+      "content": "[Address initial actions to detect and assess damage caused by a disruption, notification options, assessment procedures, alternate options, and activation criteria.]"
+    },
+    {
+      "number": "4",
+      "title": "Recovery Operations",
+      "content": "List procedures for all recovery options to restore normal operations and execute each option.",
+      "subsections": [
+        {
+          "number": "4.1",
+          "title": "Recovery Goal 1",
+          "content": "Recovery Objective: [Enter recovery objective.]\nName: [Enter name]\nContact Information: [Enter contact information]\nResponsibility: [Enter responsibility]\nOther: [Enter other relevant information]"
+        },
+        {
+          "number": "4.2",
+          "title": "Recovery Goal 2",
+          "content": "Recovery Objective: [Enter recovery objective.]\nName: [Enter name]\nContact Information: [Enter contact information]\nResponsibility: [Enter responsibility]\nOther: [Enter other relevant information]"
+        },
+        {
+          "number": "4.3",
+          "title": "Recovery Goal 3",
+          "content": "Recovery Objective: [Enter recovery objective.]\nName: [Enter name]\nContact Information: [Enter contact information]\nResponsibility: [Enter responsibility]\nOther: [Enter other relevant information]"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Return to Normal Operations",
+      "content": null,
+      "subsections": [
+        {
+          "number": "5.1",
+          "title": "Concurrent Processing",
+          "content": "[Outline procedures to test and operate systems concurrently at original and contingency sites until systems are stable.]"
+        },
+        {
+          "number": "5.2",
+          "title": "Plan Deactivation",
+          "content": "[Outline procedures for deactivating contingency sites, handling sensitive materials, packaging equipment, and restoring to normal locations.]"
+        }
+      ]
+    },
+    {
+      "number": "A",
+      "title": "APPENDIX A: Contingency Plan Approval",
+      "content": "The undersigned acknowledge they have reviewed the <Project Name> Contingency Plan and agree with the approach presented. Changes will be coordinated with and approved by the undersigned or designated representatives.\nSignature:\nDate:\nPrint Name:\nTitle:\nRole:"
+    },
+    {
+      "number": "B",
+      "title": "APPENDIX B: REFERENCES",
+      "content": "The following table summarizes the documents referenced in this document.\nDocument Name and Version | Description | Location\n<Document Name and Version Number> | [Provide description] | <URL or path>"
+    },
+    {
+      "number": "C",
+      "title": "APPENDIX C: KEY TERMS",
+      "content": "The following table provides definitions for terms relevant to this document.\nTerm | Definition\n[Insert Term] | [Provide definition of the term used in this document.]"
+    },
+    {
+      "number": "D",
+      "title": "APPENDIX D: PERSONNEL CONTACT LIST",
+      "content": "[Insert list of key personnel and contact details.]"
+    },
+    {
+      "number": "E",
+      "title": "APPENDIX E: VENDOR CONTACT LIST",
+      "content": "[Insert list of vendors, points of contact, and support details.]"
+    },
+    {
+      "number": "F",
+      "title": "APPENDIX F: EQUIPMENT AND SPECIFICATIONS",
+      "content": "[Insert detailed equipment and technical specifications.]"
+    },
+    {
+      "number": "G",
+      "title": "APPENDIX G: SERVICE LEVEL AGREEMENT",
+      "content": "[Reference or attach related SLA documents.]"
+    },
+    {
+      "number": "H",
+      "title": "APPENDIX H: MEMORANDUM OF UNDERSTANDING",
+      "content": "[Reference or attach MOU agreements related to the plan.]"
+    },
+    {
+      "number": "I",
+      "title": "APPENDIX I: STANDARD OPERATING PROCEDURES",
+      "content": "[Insert or reference applicable SOPs.]"
+    },
+    {
+      "number": "J",
+      "title": "APPENDIX J: BUSINESS IMPACT ANALYSIS",
+      "content": "[Include results or references to Business Impact Analysis reports.]"
+    },
+    {
+      "number": "K",
+      "title": "APPENDIX K: RELATED CONTINGENCY PLANS",
+      "content": "[List related contingency or continuity plans.]"
+    },
+    {
+      "number": "L",
+      "title": "APPENDIX L: OCCUPANT EVACUATION PLAN",
+      "content": "[Insert or reference evacuation plans.]"
+    },
+    {
+      "number": "M",
+      "title": "APPENDIX M: CONTINUITY OF OPERATION PLAN",
+      "content": "[Insert or reference continuity of operation plans.]"
+    }
+  ]
+}
