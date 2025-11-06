@@ -1,0 +1,91 @@
+{
+  "source": "EPLC Lifecycle Framework.pdf",
+  "phase": "3.8 Implementation Phase",
+  "description": [
+    "During the Implementation Phase, the developed and tested system is installed, configured, and deployed into the production environment.",
+    "This phase includes final preparations for deployment, data conversion, user training, and operational readiness verification.",
+    "The primary goal of this phase is to transition the Business Product from a development and testing environment into full operational use while ensuring stability and performance.",
+    "This phase concludes when the system is fully operational, accepted by the Business Owner, and approved for ongoing maintenance."
+  ],
+  "responsibilities": {
+    "Business Owner": "Certifies that the implemented system meets business requirements, signs off on acceptance, and authorizes production use.",
+    "End Users": "Participate in user acceptance testing (UAT), receive training, and begin using the system in the operational environment.",
+    "Project Manager": "Leads implementation and deployment activities, coordinates with all stakeholders, and ensures readiness for operational transition.",
+    "Integrated Project Team": "Executes deployment, training, and transition tasks as directed by the Project Manager.",
+    "Critical Partners": {
+      "Enterprise Architecture": "Ensures that deployment activities comply with enterprise architecture standards and approved configurations.",
+      "Security": "Confirms completion of Authority to Operate (ATO), Plan of Action and Milestones (POA&M), and publication of System of Record Notice (SORN).",
+      "Acquisition": "Ensures closure of contracts and that all deliverables and procurement documentation are completed.",
+      "Budget": "Determines financial impacts of final implementation changes and revalidates baseline costs.",
+      "Finance": "Confirms financial closeout and accurate recording of all project expenditures.",
+      "HR": "Ensures necessary staffing is in place for operations and maintenance support.",
+      "Section 508": "Verifies that deployed systems continue to meet accessibility and usability standards.",
+      "CPIC": "Confirms the project remains within approved cost, schedule, and performance baselines.",
+      "Performance": "Validates that operational performance metrics are achieved.",
+      "Records Management": "Ensures that records and data migration comply with retention and compliance policies."
+    }
+  },
+  "activities": [
+    "Notify all affected customers and organizations of the implementation schedule, including: the schedule, benefits of the new system, differences between the old and new systems, customer guidelines during the phase, and support process contact details.",
+    "Finalize and approve the Implementation Plan.",
+    "Install, configure, and deploy the Business Product into the production environment.",
+    "Perform data conversion and migration from legacy systems, including data input and data verification to ensure accuracy and completeness.",
+    "Conduct verification of both system operation and data integrity by continuous validation during migration.",
+    "Perform parallel operations by running old and new systems simultaneously until the new system is fully authorized and stable, allowing fallback if issues arise.",
+    "Execute deployment and cutover strategies with minimal business disruption.",
+    "Perform final system verification and validation to confirm production readiness.",
+    "Conduct user acceptance testing (UAT) and obtain Business Owner approval for production use.",
+    "Deliver user and administrator training sessions and distribute training materials.",
+    "Execute contingency and rollback plans in the event of deployment issues.",
+    "Ensure publication of the System of Record Notice prior to the Operational Readiness Review.",
+    "Conduct the Operational Readiness Review (ORR) to validate deployment preparedness.",
+    "Obtain Authority to Operate (ATO) and finalize security and privacy documentation.",
+    "Transition system management and support responsibilities to operations staff.",
+    "Close out contracts, update acquisition documentation, and archive project records."
+  ],
+  "deliverables": [
+    "Final Implementation Plan.",
+    "Operational Readiness Review (ORR) Documentation.",
+    "Authority to Operate (ATO) and Plan of Action & Milestones (POA&M).",
+    "System of Record Notice (SORN).",
+    "Business Product.",
+    "Project Completion Report.",
+    "Service Level Agreements (SLAs) and Memoranda of Understanding (MOU).",
+    "User Acceptance Test (UAT) Results.",
+    "Training Materials and Attendance Records.",
+    "Updated Budget, Financial, and Performance Reports.",
+    "Change Management and Configuration Documentation.",
+    "Final Deployment and Data Conversion Records.",
+    "Contingency and Disaster Recovery Plan.",
+    "Operations and Maintenance (O&M) Manual.",
+    "Systems Security Plan.",
+    "Security Risk Assessment.",
+    "Training Plan.",
+    "User Manual."
+  ],
+  "exit_criteria": {
+    "objective": "To ensure the system has been successfully deployed, accepted, and is ready for sustained operational support.",
+    "phase_specific": [
+      "Deployment, data migration, and system configuration activities completed successfully.",
+      "Business Owner formally accepts the system for production use.",
+      "Operational staff trained and ready to assume system management responsibilities."
+    ],
+    "generic": [
+      "All baselines reviewed and any variances resolved.",
+      "Stage Gate Review completed and approval granted to proceed to Operations and Maintenance Phase."
+    ]
+  },
+  "project_review": [
+    "The Operational Readiness Review (ORR) confirms that all implementation activities have been completed and the system is ready for production.",
+    "The Implementation Review verifies that all deployment, data conversion, and training tasks were successfully executed and accepted by stakeholders."
+  ],
+  "stage_gate_review": {
+    "title": "Implementation Stage Gate Review",
+    "purpose": "To determine whether the project is ready to transition into the Operations and Maintenance Phase.",
+    "focus": [
+      "Completion and approval of all implementation deliverables.",
+      "Verification that system meets business, technical, and performance requirements.",
+      "Confirmation that all acceptance and authorization documentation has been signed and approved."
+    ]
+  }
+}

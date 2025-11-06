@@ -1,0 +1,85 @@
+{
+  "source": "EPLC Lifecycle Framework.pdf",
+  "phase": "3.4 Requirements Analysis Phase",
+  "description": [
+    "During the Requirements Analysis Phase, the business (project in-scope) requirements documented during the Concept Phase are validated and further analyzed and decomposed into functional and non-functional requirements that define the Business Product in more detail with regard to inputs, processes, outputs, and interfaces.",
+    "If appropriate, a logical depiction of the data entities, relationships and attributes of the system/application is created.",
+    "During this phase, the initial strategy for testing and implementation should be considered.",
+    "Work planned for future phases is redefined based on information acquired during this phase.",
+    "The phase ends with a review to determine readiness to proceed to the Design Phase.",
+    "Detailed application requirements are required to permit detailed project management planning, execution, and control.",
+    "If detailed requirements and subsequent planning identify a breach of cost, schedule, or performance baselines, a formal change request should be submitted."
+  ],
+  "responsibilities": {
+    "Business Owner": "Participates in the Requirements activities and may approve final requirements.",
+    "End Users": "Participate in developing detailed functional requirements and provide input for non-functional requirements.",
+    "Project Manager": "Responsible and accountable for the successful planning and execution of the Requirements Analysis Phase. Leads the Integrated Project Team to accomplish phase tasks and deliverables.",
+    "Integrated Project Team": "Members are responsible for accomplishing assigned tasks as directed by the Project Manager.",
+    "Contracting Officer": "Responsible for preparing solicitation documents under the guidance of the Project Manager.",
+    "Critical Partners": {
+      "Enterprise Architecture": "Ensure requirements provide a suitable basis for design activities, technologies align with Enterprise Architecture, and traceability matrices and data models are complete.",
+      "Security": "Ensure assessment of required security and privacy controls per FIPS-199/NIST, and that Accreditation Boundaries and relationships are established.",
+      "Acquisition": "Review acquisition strategy to ensure inclusion of requirements analysis, alternatives analysis, and procurement/contract award plans.",
+      "Budget": "Ascertain alignment with project-level cost baselines or request formal rebaseline if necessary.",
+      "Finance": "Determine compliance with financial management requirements and cost baselines.",
+      "HR": "Verify staffing and organizational requirements are fully documented.",
+      "Section 508": "Ensure accessibility standards have been identified.",
+      "CPIC": "Confirm Requirements Document includes traceability matrix, business process model, and logical data model.",
+      "Performance": "Ensure requirements meet performance baselines or initiate rebaseline if needed.",
+      "Records Management": "Ensure applicable records management standards are identified."
+    }
+  },
+  "activities": [
+    "Requirements elicitation during sessions with customers.",
+    "Business needs consolidated and affirmed; functional and data requirements connected.",
+    "Requirements Document (RD) established as a matrix to track module satisfaction.",
+    "Documentation from prior phases revised or updated as needed.",
+    "Develop Requirements Analysis.",
+    "Analyze Analysis of Alternatives.",
+    "Procure Government Human Resources and Services.",
+    "Review and/or Refine Acquisition Strategy.",
+    "Acquire Contractor Services if required.",
+    "Prepare Solicitation of Services.",
+    "Develop Technical Evaluation Report.",
+    "Develop Source Selection Recommendation.",
+    "Obtain Contract Award.",
+    "Prepare Adjustment of Funds.",
+    "Establish Contract Performance.",
+    "Acquisition Strategy must support management decisions on procurement, funding, and MOUs/SLAs.",
+    "Perform technical analysis and evaluation of vendor proposals.",
+    "Support vendors\u2019 bid preparation.",
+    "Enable Source Selection Official to make award decisions.",
+    "Continuously update Acquisition Strategy with Investment Manager and Contracting Officer involvement."
+  ],
+  "deliverables": [
+    "Requirements Document with components (Final): Functional & Non-Functional Requirements, RTM, BPM Expansion, Logical Data Model.",
+    "The Requirements Document describes both project and product requirements, outlining technical, functional, and performance specifications."
+  ],
+  "exit_criteria": {
+    "objective": "To determine if the project requirements have been defined sufficiently to be translated into the Business Product.",
+    "phase_specific": [
+      "The initial Test Plan is defined.",
+      "Requirements have been grouped and sufficiently detailed for testing once product is developed.",
+      "Process and Data Models are defined adequately for product design."
+    ],
+    "generic": [
+      "Variances from baselines identified and mitigated (cost, schedule, and scope).",
+      "Project Baselines reviewed and revised as appropriate.",
+      "Project Management Plan and component plans updated, including: Risk Management, Acquisition Strategy, Change Management, Configuration Management, System Categorization, Requirements Management, Communication Plan, WBS/Schedule, IV&V Planning, Quality Assurance, Records Management, Staffing Management Plan."
+    ]
+  },
+  "project_review": [
+    "The Requirements Review verifies that requirements are complete, accurate, consistent, traceable, and responsive to business needs.",
+    "Ensures suitability for design activities and confirms final agreement on Requirements Document content.",
+    "Upon successful completion, the Requirements Document is baselined."
+  ],
+  "stage_gate_review": {
+    "title": "Requirements Analysis Stage Gate Review",
+    "purpose": "To consider whether the project should proceed to the Design Phase.",
+    "focus": [
+      "Completion and approval of the Requirements Document.",
+      "Validation of alignment with business, cost, and performance baselines.",
+      "Confirmation of readiness to begin the Design Phase."
+    ]
+  }
+}

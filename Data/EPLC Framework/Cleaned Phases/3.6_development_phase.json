@@ -1,0 +1,78 @@
+{
+  "source": "EPLC Lifecycle Framework.pdf",
+  "phase": "3.6 Development Phase",
+  "description": [
+    "During the Development Phase, the system is constructed according to the detailed design specifications established in the Design Phase.",
+    "This phase includes coding, configuration, integration, and testing of the system components to ensure that the system satisfies the approved requirements.",
+    "All system elements\u2014software, hardware, databases, and procedures\u2014are developed, configured, and integrated into a complete system.",
+    "At the conclusion of this phase, the system will be ready for formal testing activities."
+  ],
+  "responsibilities": {
+    "Business Owner": "Reviews development progress and validates that the system will satisfy business requirements.",
+    "Project Manager": "Responsible for managing development activities, ensuring deliverables are completed, and leading the Integrated Project Team.",
+    "Integrated Project Team": "Executes the development tasks, performs code reviews, integration, and documentation updates.",
+    "Critical Partners": {
+      "Enterprise Architecture": "Ensures compliance with enterprise standards and Technical Reference Model during development.",
+      "Security": "Confirms security requirements are implemented and security testing is included in the Test Plan.",
+      "Acquisition": "Validates that products and services are procured and received according to contract terms.",
+      "Budget": "Monitors development costs against the project baseline and mitigates variances.",
+      "Finance": "Verifies that financial tracking aligns with expenditures and approved funding.",
+      "HR": "Ensures development team staffing levels are sufficient and competencies are maintained.",
+      "Section 508": "Confirms accessibility requirements are implemented and test cases documented.",
+      "CPIC": "Ensures ongoing cost and schedule reporting align with investment controls.",
+      "Performance": "Confirms the system meets technical performance measures and supports integration readiness.",
+      "Records Management": "Ensures records management requirements are addressed in development artifacts."
+    }
+  },
+  "activities": [
+    "Develop and configure system components (software, hardware, databases).",
+    "Perform coding according to approved design specifications.",
+    "Conduct peer code reviews and implement corrective actions.",
+    "Integrate modules and components, ensuring interoperability and compliance with architecture standards.",
+    "Conduct unit, module, and integration testing to verify functional accuracy.",
+    "Update the Test Plan to reflect changes identified during development and integration.",
+    "Perform data conversion and migration preparation activities.",
+    "Develop and finalize Operations & Maintenance (O&M) Manual, Security Plan, Risk Assessment, and Training Plan.",
+    "Prepare User Manuals and Technical Documentation.",
+    "Conduct configuration management and version control for all developed components.",
+    "Implement approved change requests and document configuration updates.",
+    "Prepare for formal system testing and Operational Readiness Review."
+  ],
+  "deliverables": [
+    "Final Test Plan.",
+    "Fully Developed Business Product (System Code, Configurations, and Components).",
+    "Operations and Maintenance (O&M) Manual.",
+    "System Security Plan.",
+    "Security Risk Assessment Report.",
+    "Training Plan and Training Materials.",
+    "User Manual.",
+    "Technical Documentation and Configuration Items."
+  ],
+  "exit_criteria": {
+    "objective": "To determine whether the developed system is complete, integrated, and ready for formal testing activities.",
+    "phase_specific": [
+      "The Business Product is fully developed and unit tested.",
+      "All required deliverables and supporting documentation are completed.",
+      "Integration testing demonstrates that the system components function together properly."
+    ],
+    "generic": [
+      "Development documentation is baselined and approved.",
+      "All variances from baselines (cost, schedule, scope) are reviewed and resolved.",
+      "Stage Gate Review successfully completed and approval to proceed to Implementation Phase received."
+    ]
+  },
+  "project_review": [
+    "The Development Review ensures that all system components have been developed and integrated according to the approved design.",
+    "Confirms that the system is ready for formal testing and that supporting documentation is complete.",
+    "Includes verification that all security and performance requirements have been implemented."
+  ],
+  "stage_gate_review": {
+    "title": "Development Stage Gate Review",
+    "purpose": "To assess readiness to transition to the Implementation Phase.",
+    "focus": [
+      "Completion of development and integration activities.",
+      "Verification that the system meets defined requirements and has been tested successfully at the integration level.",
+      "Approval of all deliverables and confirmation of readiness for operational testing."
+    ]
+  }
+}

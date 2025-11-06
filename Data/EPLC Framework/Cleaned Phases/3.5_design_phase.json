@@ -1,0 +1,74 @@
+{
+  "source": "EPLC Lifecycle Framework.pdf",
+  "phase": "3.5 Design Phase",
+  "description": [
+    "During the Design Phase, the requirements defined during the Requirements Analysis Phase are transformed into detailed design specifications that will be used to build and code the system.",
+    "The design effort defines how the business product will operate to meet the requirements, including user interfaces, processes, data, and integration points.",
+    "Design includes database design, application design, user interface design, security design, and contingency planning.",
+    "The phase concludes when the design is baselined and approved, establishing the foundation for development."
+  ],
+  "responsibilities": {
+    "Business Owner": "Participates in the Preliminary Design Review and approves final design specifications.",
+    "Project Manager": "Responsible for planning, execution, and control of the Design Phase; leads the Integrated Project Team (IPT) and ensures design artifacts are completed.",
+    "Integrated Project Team": "Develops design specifications, participates in design walkthroughs, and ensures design aligns with requirements.",
+    "Critical Partners": {
+      "Enterprise Architecture": "Reviews high-level architectural design to ensure compliance with enterprise standards and Technical Reference Model.",
+      "Security": "Ensures that all required security and contingency documents are completed and compliant with federal standards (FIPS 199, NIST).",
+      "Acquisition": "Verifies that contracts fulfill requirements as awarded or through approved change requests.",
+      "Budget": "Confirms sufficient funding exists for phase activities and mitigates risk of cost overruns.",
+      "Finance": "Ensures cost estimates for current and future phases are updated and documented.",
+      "HR": "Ensures any design-related workforce issues are addressed.",
+      "Section 508": "Verifies accessibility requirements are incorporated and test cases for Section 508 are included.",
+      "CPIC": "Ensures design documentation aligns with the approved investment and baseline.",
+      "Performance": "Ensures risks are identified and mitigated within design specifications.",
+      "Records Management": "Ensures records management requirements are included in design artifacts."
+    }
+  },
+  "activities": [
+    "Develop detailed Design Document describing all aspects of the system architecture, modules, interfaces, and data structures.",
+    "Define data models, logical and physical database design, and data flow diagrams.",
+    "Design application logic, business rules, and user interface components.",
+    "Define hardware and software specifications and configurations for environments (development, testing, production).",
+    "Develop Contingency and Disaster Recovery Plans.",
+    "Prepare draft versions of Test Plan and Traceability Matrix for design verification.",
+    "Update Risk Management Plan, Configuration Management Plan, and Change Management Plan as required.",
+    "Conduct Preliminary Design Review (PDR) to confirm design completeness and compliance with requirements.",
+    "Include user representatives in design reviews to ensure usability and functionality alignment.",
+    "Update Acquisition Strategy to reflect any design-driven changes to contracts or procurements."
+  ],
+  "deliverables": [
+    "Design Document (Functional, Technical, and Security Design).",
+    "Updated Test Plan (Draft).",
+    "Contingency and Disaster Recovery Plan.",
+    "Preliminary User Manual or Prototype Screens.",
+    "Updated Risk Management and Configuration Management Plans.",
+    "System of Records Notice (if applicable).",
+    "Computer Matching Agreement (if applicable)."
+  ],
+  "exit_criteria": {
+    "objective": "To determine whether the design is sufficiently complete and documented to support development activities.",
+    "phase_specific": [
+      "No major feasibility or design issues remain unresolved.",
+      "Design is documented and traceable to approved requirements.",
+      "Security and contingency plans are complete and approved."
+    ],
+    "generic": [
+      "Baselines reviewed and variances addressed (cost, schedule, and scope).",
+      "All required deliverables completed and approved.",
+      "Stage Gate Review successfully conducted."
+    ]
+  },
+  "project_review": [
+    "The Preliminary Design Review (PDR) verifies that the design satisfies requirements and aligns with enterprise architecture and technical standards.",
+    "The Final Design Review (FDR) confirms readiness to begin development and establishes the design baseline."
+  ],
+  "stage_gate_review": {
+    "title": "Design Stage Gate Review",
+    "purpose": "To determine readiness to proceed to the Development Phase based on completeness and quality of design documentation.",
+    "focus": [
+      "Completion and approval of Design Document and supporting plans.",
+      "Verification that design aligns with requirements, enterprise standards, and performance objectives.",
+      "Confirmation that resources and contracts are ready for development execution."
+    ]
+  }
+}
