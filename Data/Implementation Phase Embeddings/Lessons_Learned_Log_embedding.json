@@ -1,0 +1,19 @@
+[
+  {
+    "section_number": "",
+    "section_title": "Instructions for Changing the Contents of Drop-Down Menus",
+    "text": [
+      "Highlight the cell where you wish to change the content of the drop-down menu.",
+      "From the file menu click 'Data' -> 'Validation' and change the content of the source field."
+    ]
+  },
+  {
+    "section_number": "",
+    "section_title": "Instructions for Filtering Data",
+    "text": [
+      "Highlight the header of the cell you wish to filter data on.",
+      "From the file menu click 'Data' -> 'Filter' -> 'Auto Filter'.",
+      "Then select your filter criteria from the drop down menu that appears on your header cell."
+    ]
+  }
+]
