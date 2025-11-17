@@ -51,7 +51,7 @@ def parse_doc_to_json(filepath):
     output_file = os.path.splitext(filepath)[0] + ".json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(document, f, indent=2, ensure_ascii=False)
-    print(f"✅ Created {output_file}")
+    print(f" Created {output_file}")
 
 for f in files:
     parse_doc_to_json(f)
