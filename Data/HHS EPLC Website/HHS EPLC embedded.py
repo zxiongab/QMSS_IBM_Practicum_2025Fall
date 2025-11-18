@@ -80,3 +80,32 @@ for q in queries:
     print(f"\n Query: {q}")
     print(f"Top Match: {top.iloc[0]['title']} (Section {top.iloc[0]['section_number']})")
     print(f"Similarity Rate: {top.iloc[0]['similarity']:.3f}")
+
+
+
+
+import matplotlib.pyplot as plt
+
+# Your queries and their similarity results
+queries = [
+    "What is the purpose of the EPLC policy?",
+    "Who is responsible for managing the policy?",
+    "What are the guiding principles of EPLC?",
+    "When was this policy last updated?"
+]
+similarities = [0.699, 0.647, 0.719, 0.623]
+
+plt.figure(figsize=(8, 5))
+bars = plt.barh(queries, similarities, color='skyblue')
+plt.xlabel("Cosine Similarity Score")
+plt.title("Semantic Retrieval Accuracy of the HHS EPLC Policy Vector Database")
+plt.xlim(0, 1)
+
+# Add numeric labels to bars
+for bar, score in zip(bars, similarities):
+    plt.text(score + 0.02, bar.get_y() + bar.get_height()/2, f"{score:.3f}", va='center')
+
+plt.gca().invert_yaxis()  # show top query first
+plt.tight_layout()
+plt.show()
+
