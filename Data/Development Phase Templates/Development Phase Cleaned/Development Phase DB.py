@@ -36,14 +36,15 @@ df = pd.DataFrame(rows)
 
 model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 df["embedding"] = df["content"].apply(lambda x: model.encode(x).tolist())
-for doc_title, doc_df in df.groupby("document"):
-    safe_name = doc_title.replace(" ", "_").replace("/", "_")
-    out_path = f"{safe_name}_embedding.json"
-    doc_df.to_json(out_path, orient="records", indent=2, force_ascii=False)
-    print(f"Saved embedding file: {out_path}")
+# for doc_title, doc_df in df.groupby("document"):
+#     safe_name = doc_title.replace(" ", "_").replace("/", "_")
+#     out_path = f"{safe_name}_embedding.json"
+#     doc_df.to_json(out_path, orient="records", indent=2, force_ascii=False)
+#     print(f"Saved embedding file: {out_path}")
 
 
-chroma_client = chromadb.PersistentClient(path="./Development_Phase_VectorDB")
+chroma_path = "/Users/adonischeng/Desktop/QMSS_IBM_Practicum_2025Fall/Data/Vector DataBase/chroma_db_development_phase"
+chroma_client = chromadb.PersistentClient(path=chroma_path)
 collection = chroma_client.get_or_create_collection("development_phase_templates")
 
 ids = [f"{row['document']}_{row['section_number']}_{i}" for i, row in df.iterrows()]
