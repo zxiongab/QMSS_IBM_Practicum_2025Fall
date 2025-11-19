@@ -36,6 +36,11 @@ df = pd.DataFrame(rows)
 
 model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 df["embedding"] = df["content"].apply(lambda x: model.encode(x).tolist())
+for doc_title, doc_df in df.groupby("document"):
+    safe_name = doc_title.replace(" ", "_").replace("/", "_")
+    out_path = f"{safe_name}_embedding.json"
+    doc_df.to_json(out_path, orient="records", indent=2, force_ascii=False)
+    print(f"Saved embedding file: {out_path}")
 
 
 chroma_client = chromadb.PersistentClient(path="./Development_Phase_VectorDB")
