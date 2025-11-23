@@ -2,8 +2,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"1.0",
-    "title":"Introduction",
-    "content":"[This section provides a management summary of the entire plan.]",
+    "section_title":"Introduction",
+    "text":"[This section provides a management summary of the entire plan.]",
     "embedding":[
       0.0141404681,
       0.032045342,
@@ -1034,8 +1034,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"1.1",
-    "title":"Background and Scope",
-    "content":"[This subsection provides a brief description of the project from a management perspective. It identifies the system, its purpose, and its intended users. It also summarizes the Training Plan and its scope.]",
+    "section_title":"Background and Scope",
+    "text":"[This subsection provides a brief description of the project from a management perspective. It identifies the system, its purpose, and its intended users. It also summarizes the Training Plan and its scope.]",
     "embedding":[
       0.0375622474,
       0.0071043288,
@@ -2066,8 +2066,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"1.2",
-    "title":"Points of Contact",
-    "content":"[This subsection provides organization name, title, and contact information for key roles such as Project Manager, Program Manager, QA Manager, Security Manager, and Training Coordinator.]",
+    "section_title":"Points of Contact",
+    "text":"[This subsection provides organization name, title, and contact information for key roles such as Project Manager, Program Manager, QA Manager, Security Manager, and Training Coordinator.]",
     "embedding":[
       0.0201339982,
       -0.0464377292,
@@ -3098,8 +3098,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"1.3",
-    "title":"Document Organization",
-    "content":"[Describes how the Training Plan document is organized.]",
+    "section_title":"Document Organization",
+    "text":"[Describes how the Training Plan document is organized.]",
     "embedding":[
       0.0099965548,
       -0.036698807,
@@ -4130,8 +4130,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"1.4",
-    "title":"Security and the Privacy Act",
-    "content":"[Provides a brief discussion of system security controls, data protection requirements, and Privacy Act considerations.]",
+    "section_title":"Security and the Privacy Act",
+    "text":"[Provides a brief discussion of system security controls, data protection requirements, and Privacy Act considerations.]",
     "embedding":[
       -0.0061920495,
       -0.0163568314,
@@ -5162,8 +5162,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"1.5",
-    "title":"Glossary",
-    "content":"[Contains a glossary of all terms and abbreviations used in the plan, or references the OPDIV glossary if applicable.]",
+    "section_title":"Glossary",
+    "text":"[Contains a glossary of all terms and abbreviations used in the plan, or references the OPDIV glossary if applicable.]",
     "embedding":[
       -0.0004378768,
       -0.0117254928,
@@ -6194,8 +6194,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"2.0",
-    "title":"Instructional Analysis",
-    "content":"",
+    "section_title":"Instructional Analysis",
+    "text":"",
     "embedding":[
       -0.0095977206,
       -0.033549808,
@@ -7226,8 +7226,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"2.1",
-    "title":"Needs and Skills Analysis",
-    "content":"[Describes target audiences, their skills, and training needs. May include a task-skill matrix and discuss audience groupings such as headquarters or field offices.]",
+    "section_title":"Needs and Skills Analysis",
+    "text":"[Describes target audiences, their skills, and training needs. May include a task-skill matrix and discuss audience groupings such as headquarters or field offices.]",
     "embedding":[
       0.0117977764,
       0.0070018861,
@@ -8258,8 +8258,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"2.2",
-    "title":"Development Approach",
-    "content":"[Discusses the approach used to develop the course curriculum, including methods, objectives, and topics to be covered.]",
+    "section_title":"Development Approach",
+    "text":"[Discusses the approach used to develop the course curriculum, including methods, objectives, and topics to be covered.]",
     "embedding":[
       0.0309956763,
       0.0105563421,
@@ -9290,8 +9290,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"2.3",
-    "title":"Issues and Recommendations",
-    "content":"[Lists foreseeable training issues, provides recommendations and identifies constraints or limitations.]",
+    "section_title":"Issues and Recommendations",
+    "text":"[Lists foreseeable training issues, provides recommendations and identifies constraints or limitations.]",
     "embedding":[
       0.0213860348,
       -0.0164443199,
@@ -10322,8 +10322,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"3.0",
-    "title":"Instructional Methods",
-    "content":"",
+    "section_title":"Instructional Methods",
+    "text":"",
     "embedding":[
       -0.0095977206,
       -0.033549808,
@@ -11354,8 +11354,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"3.1",
-    "title":"Training Methodology",
-    "content":"[Describes the training methods, materials, and formats used. Includes course outlines, instructor guides, student materials, and evaluation approaches.]",
+    "section_title":"Training Methodology",
+    "text":"[Describes the training methods, materials, and formats used. Includes course outlines, instructor guides, student materials, and evaluation approaches.]",
     "embedding":[
       0.0178155806,
       0.0134850014,
@@ -12386,8 +12386,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"3.2",
-    "title":"Training Database",
-    "content":"[Identifies and describes the simulated training database, its purpose, and how it will be developed or used during training.]",
+    "section_title":"Training Database",
+    "text":"[Identifies and describes the simulated training database, its purpose, and how it will be developed or used during training.]",
     "embedding":[
       0.0113862911,
       -0.020874979,
@@ -13418,8 +13418,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"3.3",
-    "title":"Testing and Evaluation",
-    "content":"[Describes how training effectiveness and student performance will be tested and evaluated. Includes feedback and course evaluation mechanisms.]",
+    "section_title":"Testing and Evaluation",
+    "text":"[Describes how training effectiveness and student performance will be tested and evaluated. Includes feedback and course evaluation mechanisms.]",
     "embedding":[
       -0.01454423,
       0.0060895961,
@@ -14450,8 +14450,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"4.0",
-    "title":"Training Resources",
-    "content":"",
+    "section_title":"Training Resources",
+    "text":"",
     "embedding":[
       -0.0095977206,
       -0.033549808,
@@ -15482,8 +15482,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"4.1",
-    "title":"Course Administration",
-    "content":"[Describes training administration methods — enrollment, tracking, certification, progress reports, and record management.]",
+    "section_title":"Course Administration",
+    "text":"[Describes training administration methods — enrollment, tracking, certification, progress reports, and record management.]",
     "embedding":[
       0.0238963608,
       -0.0358149484,
@@ -16514,8 +16514,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"4.2",
-    "title":"Resources and Facilities",
-    "content":"[Lists required training resources: classrooms, equipment, materials, and special needs.]",
+    "section_title":"Resources and Facilities",
+    "text":"[Lists required training resources: classrooms, equipment, materials, and special needs.]",
     "embedding":[
       0.0357317626,
       0.0052161212,
@@ -17546,8 +17546,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"4.3",
-    "title":"Schedules",
-    "content":"[Presents training implementation schedule, milestones, responsible parties, and estimated efforts.]",
+    "section_title":"Schedules",
+    "text":"[Presents training implementation schedule, milestones, responsible parties, and estimated efforts.]",
     "embedding":[
       0.0124159912,
       0.0074336859,
@@ -18578,8 +18578,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"4.4",
-    "title":"Future Training",
-    "content":"[Discusses periodic updates, retraining, and future improvements in training materials and delivery.]",
+    "section_title":"Future Training",
+    "text":"[Discusses periodic updates, retraining, and future improvements in training materials and delivery.]",
     "embedding":[
       0.0482628979,
       -0.0234071147,
@@ -19610,8 +19610,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"5.0",
-    "title":"Training Materials List",
-    "content":"",
+    "section_title":"Training Materials List",
+    "text":"",
     "embedding":[
       -0.0095977206,
       -0.033549808,
@@ -20642,8 +20642,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"5.1",
-    "title":"Purpose and Scope",
-    "content":"This section assists project managers in managing training materials such as seminars, presentations, or tutorials. It emphasizes keeping this as a living document updated throughout the project lifecycle.",
+    "section_title":"Purpose and Scope",
+    "text":"This section assists project managers in managing training materials such as seminars, presentations, or tutorials. It emphasizes keeping this as a living document updated throughout the project lifecycle.",
     "embedding":[
       0.0176771563,
       -0.0170866083,
@@ -21674,8 +21674,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"5.2",
-    "title":"Training Materials List",
-    "content":"[Provides a table detailing training materials, including document name, version, format, date delivered, intended audience, and storage location.]",
+    "section_title":"Training Materials List",
+    "text":"[Provides a table detailing training materials, including document name, version, format, date delivered, intended audience, and storage location.]",
     "embedding":[
       0.0152104786,
       -0.0328857005,
@@ -22706,8 +22706,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"6.0",
-    "title":"Training Curriculum",
-    "content":"[Describes all training courses and modules, including objectives, duration, audience, prerequisites, resources, and future ownership and maintenance of training materials.]",
+    "section_title":"Training Curriculum",
+    "text":"[Describes all training courses and modules, including objectives, duration, audience, prerequisites, resources, and future ownership and maintenance of training materials.]",
     "embedding":[
       0.0195769183,
       -0.0228582062,
@@ -23738,8 +23738,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"Appendix A",
-    "title":"Training Plan Approval",
-    "content":"Acknowledgement and approval form for project stakeholders confirming review and acceptance of the Training Plan.",
+    "section_title":"Training Plan Approval",
+    "text":"Acknowledgement and approval form for project stakeholders confirming review and acceptance of the Training Plan.",
     "embedding":[
       0.0103797456,
       0.0104362573,
@@ -24770,8 +24770,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"Appendix B",
-    "title":"References",
-    "content":"[Lists referenced documents with their name, version, description, and location.]",
+    "section_title":"References",
+    "text":"[Lists referenced documents with their name, version, description, and location.]",
     "embedding":[
       -0.0090162233,
       -0.022213323,
@@ -25802,8 +25802,8 @@
   {
     "document":"Training Plan Template (v1.0)",
     "section_number":"Appendix C",
-    "title":"Key Terms",
-    "content":"[Provides definitions and explanations for key terms and acronyms relevant to the document.]",
+    "section_title":"Key Terms",
+    "text":"[Provides definitions and explanations for key terms and acronyms relevant to the document.]",
     "embedding":[
       0.0311565269,
       -0.0257034227,
