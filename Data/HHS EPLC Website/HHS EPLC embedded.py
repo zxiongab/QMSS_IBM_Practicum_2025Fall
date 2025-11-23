@@ -17,16 +17,16 @@ for section in data["sections"]:
     rows.append({
         "document": data["document_title"],
         "section_number": section["number"],
-        "title": section["title"],
-        "content": section["content"]
+        "section_title": section["title"],
+        "text": section["content"]
     })
 
     for sub in section.get("subsections", []):
         rows.append({
             "document": data["document_title"],
             "section_number": sub["number"],
-            "title": sub["title"],
-            "content": sub["content"]
+            "section_title": sub["title"],
+            "text": sub["content"]
         })
 
 df = pd.DataFrame(rows)
@@ -34,7 +34,7 @@ print(f"{len(df)} text chunks for embedding.")
 
 # Transform unstructured text into machine readable embeddings
 model = SentenceTransformer("BAAI/bge-large-en-v1.5")  
-df["embedding"] = df["content"].apply(lambda x: model.encode(x).tolist())
+df["embedding"] = df["text"].apply(lambda x: model.encode(x).tolist())
 df.to_json("HHS_EPLC_embeddings.json", orient="records", indent=2, force_ascii=False)
 
 # Create a ChromaDB collection and add all your text + embeddings + metadata into it
@@ -45,10 +45,10 @@ ids = [f"section_{i}" for i in range(len(df))]
 
 collection.add(
     ids=ids,
-    documents=df["content"].tolist(),
+    documents=df["text"].tolist(),
     embeddings=df["embedding"].tolist(),
     metadatas=[
-        {"document": row["document"], "section_number": row["section_number"], "title": row["title"]}
+        {"document": row["document"], "section_number": row["section_number"], "section_title": row["section_title"]}
         for _, row in df.iterrows()
     ]
 )
@@ -66,17 +66,17 @@ collection.add(
 #     print(f"Text: {doc[:250]}...")
 
 
-queries = [
-    "What is the purpose of the EPLC policy?",
-    "Who is responsible for managing the policy?",
-    "What are the guiding principles of EPLC?",
-    "When was this policy last updated?"
-]
+# queries = [
+#     "What is the purpose of the EPLC policy?",
+#     "Who is responsible for managing the policy?",
+#     "What are the guiding principles of EPLC?",
+#     "When was this policy last updated?"
+# ]
 
-for q in queries:
-    q_vec = model.encode(q)
-    df["similarity"] = df["embedding"].apply(lambda x: cosine_similarity([x], [q_vec])[0][0])
-    top = df.sort_values(by="similarity", ascending=False).head(1)
-    print(f"\n Query: {q}")
-    print(f"Top Match: {top.iloc[0]['title']} (Section {top.iloc[0]['section_number']})")
-    print(f"Similarity Rate: {top.iloc[0]['similarity']:.3f}")
+# for q in queries:
+#     q_vec = model.encode(q)
+#     df["similarity"] = df["embedding"].apply(lambda x: cosine_similarity([x], [q_vec])[0][0])
+#     top = df.sort_values(by="similarity", ascending=False).head(1)
+#     print(f"\n Query: {q}")
+#     print(f"Top Match: {top.iloc[0]['title']} (Section {top.iloc[0]['section_number']})")
+#     print(f"Similarity Rate: {top.iloc[0]['similarity']:.3f}")
