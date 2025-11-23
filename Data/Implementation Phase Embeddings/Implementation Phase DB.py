@@ -35,8 +35,8 @@ for file in embedding_files:
         rows.append({
             "document": file,
             "section_number": item.get("section_number", item.get("number", "")),
-            "title": item.get("section_title", item.get("title", "")),
-            "content": text,
+            "section_title": item.get("section_title", item.get("title", "")),
+            "text": text,
             "embedding": embedding
         })
 
@@ -46,13 +46,13 @@ ids = [f"{row['document']}_{row['section_number']}_{i}" for i, row in df.iterrow
 
 collection.add(
     ids=ids,
-    documents=df["content"].tolist(),
+    documents=df["text"].tolist(),
     embeddings=df["embedding"].tolist(),
     metadatas=[
         {
             "document": row["document"],
             "section_number": row["section_number"],
-            "title": row["title"]
+            "section_title": row["section_title"]
         }
         for _, row in df.iterrows()
     ]
